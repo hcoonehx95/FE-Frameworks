@@ -64,7 +64,8 @@
                                 aria-hidden="true"></span>
                         </a>
                         <ul class="displayNone">
-                            <li><a href="#">dang nhap</a></li>
+                            <li><button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">dang nhap</button></li>
                             <li><a href="#">quen mk</a></li>
                             <li><a href="#">dang ki</a></li>
                             <hr>
@@ -81,7 +82,7 @@
                 <ul>
                     <li>
                         <!-- <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> -->
-                        <a href="#">Englishssssss</a>
+                        <a href="#">English</a>
                     </li>
                     <li>
                         <!-- <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> -->
@@ -89,118 +90,180 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="container">
+                        <h2></h2>
+                        <div class="container" id="container">
+                          <div class="form-container sign-up-container login-box">
+                            <form action="#">
+                              <h1>Create Account</h1>
+                              <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Username</label>
+                              </div>
+                              <div class="user-box">
+                                <input type="email" name="" required="">
+                                <label>Email</label>
+                              </div>
+                              <div class="user-box">
+                                <input type="password" name="" required="">
+                                <label>Password</label>
+                              </div>
+                              <button>Register</button>
+                            </form>
+                          </div>
+                          <div class="form-container sign-in-container login-box">
+                            <form action="#">
+                              <h1>Login</h1>
+                              <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Username</label>
+                              </div>
+                              <div class="user-box">
+                                <input type="password" name="" required="">
+                                <label>Password</label>
+                              </div>
+                              <a href="#">Forgot your password?</a>
+                              <button>Login</button>
+                            </form>
+                          </div>
+                          <div class="overlay-container">
+                            <div class="overlay">
+                              <div class="overlay-panel overlay-left">
+                                <h1>Welcome Back!</h1>
+                                <p>To keep connected with us please login with your personal info</p>
+                                <button class="ghost" id="signIn">Login</button>
+                              </div>
+                              <div class="overlay-panel overlay-right">
+                                <h1>Hello, Friend!</h1>
+                                <p>Enter your personal details and start journey with us</p>
+                                <button class="ghost" id="signUp">Register</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <footer>
+                         
+                        </footer>
+                      </div>
+                </div>
+            </div>
         </nav>
 
         <div class="main row">
 
             <article class="col-md-9">
-              <div class="col-sm-6 poly-prod">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            Laptop LENOVO Legion 5
-                        </h4>
+                <div class="col-sm-6 poly-prod">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                Laptop LENOVO Legion 5
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
+                </div>
+
+                <div class="col-sm-6 poly-prod">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                Laptop LENOVO Legion 5
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-6 poly-prod">
-              <div class="panel panel-default">
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          Laptop LENOVO Legion 5
-                      </h4>
-                  </div>
-                  <div class="panel-body">
-                      <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-sm-6 poly-prod">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        Laptop LENOVO Legion 5
-                    </h4>
+                <div class="col-sm-6 poly-prod">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                Laptop LENOVO Legion 5
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-body">
-                    <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
-                </div>
-            </div>
-        </div>
 
-        <div class="col-sm-6 poly-prod">
-          <div class="panel panel-default">
-              <div class="panel-heading">
-                  <h4 class="panel-title">
-                      Laptop LENOVO Legion 5
-                  </h4>
-              </div>
-              <div class="panel-body">
-                  <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
-              </div>
-          </div>
-      </div>
+                <div class="col-sm-6 poly-prod">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                Laptop LENOVO Legion 5
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="./images/products/apple-macbook-pro-13-inch-m2-2022-(35).jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
 
             </article>
             <aside class="col-md-3">
-              
-              <div class="panel panel-default mt-4">
-                <div class="panel-body">
-                  <form class="form-inline">
-                    <input class="form-control col-sm-9" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 col-sm-3" type="submit"><span
-                        class="glyphicon glyphicon-search"></span></button>
-                  </form>
+
+                <div class="panel panel-default mt-4">
+                    <div class="panel-body">
+                        <form class="form-inline">
+                            <input class="form-control col-sm-9" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 col-sm-3" type="submit"><span
+                                    class="glyphicon glyphicon-search"></span></button>
+                        </form>
+                    </div>
                 </div>
-              </div>
-              <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                  <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                    <span class="glyphicon glyphicon-th-list"></span> <strong>Danh Mục</strong>
-                  </div>
-                  <ul id="collapse1" class="list-group panel-collapse collapse in">
-                    <li class="list-group-item ">Điện thoại di động<span class="label badge">12</span></li>
-                    <li class="list-group-item ">Máy tính xách tay<span class="label badge">12</span></li>
-                    <li class="list-group-item ">Máy tính để bàn<span class="label badge">12</span></li>
-                    <li class="list-group-item ">Quạt máy<span class="label badge">12</span></li>
-                    <li class="list-group-item ">Tivi<span class="label badge">12</span></li>
-                    <li class="list-group-item ">Tủ lạnh<span class="label badge">12</span></li>
-      
-                  </ul>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            <span class="glyphicon glyphicon-th-list"></span> <strong>Danh Mục</strong>
+                        </div>
+                        <ul id="collapse1" class="list-group panel-collapse collapse in">
+                            <li class="list-group-item ">Điện thoại di động<span class="label badge">12</span></li>
+                            <li class="list-group-item ">Máy tính xách tay<span class="label badge">12</span></li>
+                            <li class="list-group-item ">Máy tính để bàn<span class="label badge">12</span></li>
+                            <li class="list-group-item ">Quạt máy<span class="label badge">12</span></li>
+                            <li class="list-group-item ">Tivi<span class="label badge">12</span></li>
+                            <li class="list-group-item ">Tủ lạnh<span class="label badge">12</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            <span class="glyphicon glyphicon-list-alt"></span> <strong>Nhà cung cấp</strong>
+                        </div>
+                        <ul id="collapse2" class="list-group panel-collapse collapse">
+                            <li class="list-group-item ">Apple</li>
+                            <li class="list-group-item ">Asus</li>
+                            <li class="list-group-item ">Vivo</li>
+                            <li class="list-group-item ">Lenovo</li>
+                            <li class="list-group-item ">MSI</li>
+                            <li class="list-group-item ">HP</li>
+                        </ul>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            <span class="glyphicon glyphicon-star-empty"></span> <strong>Hàng đặt biệt</strong>
+                        </div>
+                        <ul id="collapse3" class="list-group panel-collapse collapse">
+                            <li class="list-group-item ">Hàng bán chạy</li>
+                            <li class="list-group-item ">Hàng mới</li>
+                            <li class="list-group-item ">Hàng giảm giá</li>
+                            <li class="list-group-item ">Hàng đặt biệt</li>
+
+                        </ul>
+                    </div>
                 </div>
-                <div class="panel panel-default">
-                  <div  class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                    <span class="glyphicon glyphicon-list-alt"></span> <strong>Nhà cung cấp</strong>
-                  </div>
-                  <ul id="collapse2" class="list-group panel-collapse collapse" >
-                    <li class="list-group-item ">Apple</li>
-                    <li class="list-group-item ">Asus</li>
-                    <li class="list-group-item ">Vivo</li>
-                    <li class="list-group-item ">Lenovo</li>
-                    <li class="list-group-item ">MSI</li>
-                    <li class="list-group-item ">HP</li>
-                  </ul>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                    <span class="glyphicon glyphicon-star-empty"></span> <strong>Hàng đặt biệt</strong>
-                  </div>
-                  <ul id="collapse3" class="list-group panel-collapse collapse" >
-                    <li class="list-group-item ">Hàng bán chạy</li>
-                    <li class="list-group-item ">Hàng mới</li>
-                    <li class="list-group-item ">Hàng giảm giá</li>
-                    <li class="list-group-item ">Hàng đặt biệt</li>
-      
-                  </ul>
-                </div>
-              </div>
-      
-              
+
+
             </aside>
 
         </div>
@@ -227,6 +290,7 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
